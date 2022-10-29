@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.container-fluid{
+  padding: 1% 5%;
+}
+
+.navbar-brand{
+  padding-left: 55px;
+}
+
+.row h1{
+  padding-top: 70px;
+}
+
+.navbar-nav li:nth-child(1),
+.navbar-nav li:nth-child(2),
+.navbar-nav li:nth-child(3),
+.navbar-nav li:nth-child(4){
+  font-weight: bolder;
+  
+  
+}
+
+.position{
+  margin: 5px;
+  border-radius: 20px 20px 0px 0px;
+  height: 460px;
+  width: 480px;
+  background: rgba(225, 225, 225, 0.082);
+  backdrop-filter: blur(5px);
+}
+
+.position-filters{
+  height: 60px;
+  background: rgba(225, 225, 225, 0.082);
+  backdrop-filter : blur(5px);
+  justify-content: space-between;
+  text-align: center;
+  /* display: flex; */
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.butt{
+  margin: 15px;
+  text-align: center;
+}
+
+.inputt{
+  border-width: 1px;
+  border-radius: 20px 0px 0px 20px;
+  border-color: yellow;
+}
+
+.droppy{
+  width: 90vw;
+  background-color: transparent;
+}
+
+/* .position-group{
+  padding: 15px 15px 15px;
+  
+} */
+
+.tab-label{
+  padding: 10px 30px;
+}
+.active-tab{
+  text-decoration: underline ;
+}
+.SearchBtn{
+  margin: 15px ;
+  width: 38vw;
+  border: none;
+  
+}
+
+#section-1{
+  padding: 1% 3%;
+}
+
+#sel_id{
+  padding: 2% 2%;
+  width: 40vw;
+  border-radius: 10px 10px 10px 10px;
+  border-width: none;
+  
+}
